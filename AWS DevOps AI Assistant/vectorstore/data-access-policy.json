@@ -1,0 +1,31 @@
+[
+  {
+    "Rules": [
+      {
+        "ResourceType": "index",
+        "Resource": ["index/devops-runbooks/*"],
+        "Permission": [
+          "aoss:CreateIndex",
+          "aoss:DeleteIndex",
+          "aoss:UpdateIndex",
+          "aoss:DescribeIndex",
+          "aoss:ReadDocument",
+          "aoss:WriteDocument"
+        ]
+      },
+      {
+        "ResourceType": "collection",
+        "Resource": ["collection/devops-runbooks"],
+        "Permission": [
+          "aoss:CreateCollectionItems",
+          "aoss:DeleteCollectionItems",
+          "aoss:UpdateCollectionItems",
+          "aoss:DescribeCollectionItems"
+        ]
+      }
+    ],
+    "Principal": [
+      "arn:aws:iam::869719104972:user/iam-admin-user"
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+===== Amazon Open Search Service CONFIGURATION =====
+
+Endpoint: https://cslcjz673eyolzhitir6.aoss.us-east-1.on.aws
+Index: devops-runbooks
+AWS Region: us-east-1
+IAM user: arn:aws:iam::869719104972:user/iam-admin-user
+Account:  869719104972
+IAM role: DevOpsAIAssistantRole 
+
+https://devops-ai-test.atlassian.net/wiki/spaces/DEVOPS/overview
+https://devops-ai-test.atlassian.net/wiki/home
+certifiedawsmaster@gmail.com
+
+Confluence Token:
+ATATT3xFfGF0-EuBIvM4aFqkjr3bYZxVONbsyb-Tb0FamQ4tKEDFFsYDX106FlN5El2DLkVFsFKU7lGCDbKahhUkxlc647XhkuRZ5WQBK0L2ohqSkGwHaICVjFgwJ08enaQry0RmVyUbZWF5BJcAzNZGZFUWkdZCLsv0pn2ffDli4X_GGxN-BrU=E9520AC3
+
+Github_Token: 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
+
+### Github repos
+
+https://github.com/certifiedawsmaster/infra
+https://github.com/certifiedawsmaster/platform
+https://github.com/certifiedawsmaster/services
+
+
+
+App ID
+A0B8ENJL1B7
+Date of App Creation
+June 5, 2026
+Client ID
+11293664068900.11286766681381
+Client Secret
+123bce10c0699d1e4e6b8a67294bee58
+You'll need to send this secret along with your client ID when making your oauth.v2.access request.
+Signing Secret
+5f529710ee35f406b7cf52198eb55900
+Slack signs the requests we send you using this secret. Confirm that each request comes from Slack by verifying its unique signature.
+Verification Token
+nV49nBQj5ITLupqq7NYFZvtB
+This deprecated Verification Token can still be used to verify that requests come from Slack, but we strongly recommend using the above, more secure, signing secret instead.
+
+
+xoxb-11293664068900-11274722640519-mqImS23ojfMuYc9sGqTTAXkb
